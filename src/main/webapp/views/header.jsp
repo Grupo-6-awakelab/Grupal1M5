@@ -10,7 +10,7 @@
 
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="./" class="nav-link active" aria-current="page">Inicio</a></li>
-        <li class="nav-item"><a href="contacto" class="nav-link">Contacto</a></li>
-        <li class="nav-item"><a href="crearcapacitacion" class="nav-link">Crear Capacitación</a></li>
+        <li class="nav-item"><a href="contacto" class="nav-link active">Contacto</a></li>
+        <li class="nav-item"><a href="crearcapacitacion" class="nav-link active">Crear Capacitación</a></li>
       </ul>
 </header>
