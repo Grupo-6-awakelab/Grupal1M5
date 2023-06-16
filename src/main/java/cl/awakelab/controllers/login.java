@@ -1,4 +1,4 @@
-package cl.awakelab;
+package cl.awakelab.controllers;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class CrearCapacitacion
+ * Servlet implementation class login
  */
-@WebServlet("/crearcapacitacion")
-public class CrearCapacitacion extends HttpServlet {
+@WebServlet("/login")
+public class login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public CrearCapacitacion() {
+    public login() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,11 +27,9 @@ public class CrearCapacitacion extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
-		
-		getServletContext().getRequestDispatcher("/views/crearcapacitacion.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/views/login.jsp").forward(request, response);
 	}
-
+		
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
