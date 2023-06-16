@@ -1,4 +1,4 @@
-package cl.awakelab;
+package cl.awakelab.controllers;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class inicio
+ * Servlet implementation class CrearCapacitacion
  */
-@WebServlet("/")
-public class Inicio extends HttpServlet {
+@WebServlet("/crearcapacitacion")
+public class CrearCapacitacion extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Inicio() {
+    public CrearCapacitacion() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -29,7 +29,7 @@ public class Inicio extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		
-		getServletContext().getRequestDispatcher("/views/index.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/views/crearcapacitacion.jsp").forward(request, response);
 	}
 
 	/**
