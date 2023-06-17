@@ -1,4 +1,4 @@
-package cl.awakelab;
+package cl.awakelab.controllers;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
